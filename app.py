@@ -34,3 +34,7 @@ df = pd.DataFrame({
 })
 
 st.line_chart(df)
+
+# Botón para ir a otra página
+if st.button("Ir al ejemplo con Seaborn"):
+    st.switch_page("pages/1_GraficoSearbon.py")
